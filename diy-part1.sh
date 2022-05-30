@@ -42,7 +42,7 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 #ttyd lede包已有
 
 #磁盘管理
-git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
+git clone https://github.com/lisaac/luci-app-dockersvn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-mwan3helper package/luci-app-mwan3helper.git package/luci-app-dockerman
 
 #文件传输 lede包已有
 
@@ -92,3 +92,34 @@ svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-fileassistant 
 #Turbo ACC 加速 lede包已有
 
 ##############################################################################################
+
+# DDNS
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-ddns package/luci-app-ddns
+
+##############################################################################################
+#ramfree
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-ramfree package/luci-app-ramfree
+#################################################################################################
+#rcclone
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-rclone_INCLUDE_rclone-ng package/luci-app-rclone_INCLUDE_rclone-ng
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-rclone_INCLUDE_rclone-webui package/luci-app-rclone_INCLUDE_rclone-webui
+#################################################################################################
+#unblockmusic
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-unblockmusic package/luci-app-unblockmusic
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-UnblockNeteaseMusic_Go package/luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go
+###############
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-upnp package/luci-app-upnp
+###############################
+#openvpnserver
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-openvpn-server package/luci-app-openvpn-server
+##############
+#mwan
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-mwan3helper package/luci-app-mwan3helper
+#svn co https://github.com/kiddin9/openwrt-packages/trunk/mwan3 package/mwan3
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-mwan3 package/luci-app-mwan3
+###########
+#aliyun
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-aliyundrive-fuse package/luci-app-aliyundrive-fuse
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-aliyundrive-webdav package/luci-app-aliyundrive-webdav
+
+
