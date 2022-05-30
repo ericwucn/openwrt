@@ -115,8 +115,8 @@ svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-openvpn-server
 ##############
 #mwan
 svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-mwan3helper package/luci-app-mwan3helper
-#svn co https://github.com/kiddin9/openwrt-packages/trunk/mwan3 package/mwan3
-svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-mwan3 package/luci-app-mwan3
+svn co https://github.com/kiddin9/openwrt-packages/trunk/mwan3 package/mwan3
+#svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-mwan3 package/luci-app-mwan3
 ###########
 #aliyun
 svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-aliyundrive-fuse package/luci-app-aliyundrive-fuse
